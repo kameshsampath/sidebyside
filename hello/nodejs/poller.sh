@@ -2,7 +2,7 @@
 
 while true
 do 
-  curl $(minikube -p istio ip):$(kubectl get service/noded -o jsonpath="{.spec.ports[*].nodePort}")
+  curl http://noded-sidebyside.apps.azr.workspace7.org/
   sleep .2;
 done
 

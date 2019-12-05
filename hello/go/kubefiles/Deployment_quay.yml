@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: gonow
-        image: dev.local/burrsutter/gonow:1.0.0
+        image: quay.io/workspace7/gonow:1.0.0
         ports:
           - containerPort: 8080
         resources:
